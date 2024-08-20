@@ -123,7 +123,7 @@ The project includes several NPM scripts for common tasks:
 
 The project relies on several key dependencies:
 
-```json
+```json,
 "dependencies": {
     "@nextui-org/react": "^2.4.6",
     "framer-motion": "^11.3.21",
