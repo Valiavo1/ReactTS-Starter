@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Navigate, Outlet } from 'react-router-dom';
 import { _brand, _nav, _profile } from "../navigation/_admin";
 import { useAuthStore } from "../data/store/AuthStore";
-import Sidebar from "../components/Sidebar/Sidebar";
+import Sidebar from "../components/sidebar/Sidebar";
 import FlashMessage from "../components/FlashMessage/FlashMessage";
 import { useFlashMessageStore } from "../data/store/FlashMessageStore";
 import AuthService from '../services/AuthService'; // Import AuthService

@@ -1,7 +1,7 @@
 import brand from "../assets/react.svg";
 import brandMini from "../assets/react.svg";
 import {DashboardIcon, OrderIcon, PatientIcon, RDVIcon} from "../components/Icon/IconFile";
-import {BaseNavItem, Brand, NavGroupItem, Profile} from "../components/Sidebar/types";
+import {BaseNavItem, Brand, NavGroupItem, Profile} from "../components/sidebar/types";
 
 export const _nav: (BaseNavItem | NavGroupItem)[] = [
     {
